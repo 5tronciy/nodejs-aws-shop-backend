@@ -1,0 +1,22 @@
+{
+  "name": "product_service",
+  "version": "0.1.0",
+  "bin": {
+    "product_service": "bin/product_service.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.7",
+    "aws-cdk": "2.93.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.93.0",
+    "constructs": "^10.2.70"
+  }
+}
